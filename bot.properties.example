@@ -1,0 +1,7 @@
+token = YourBotTokenHere-NoQuotesRequired
+userId = The Numeric ID of the bot's owner, eg 9999999999999
+
+hibernate.connection.url = jdbc:mysql://localhost:3306/mlbgamefeed
+hibernate.connection.username = mlbgamefeed
+hibernate.connection.password = AVerySecurePassword
+hibernate.connection.driver_class = com.mysql.cj.jdbc.Driver
