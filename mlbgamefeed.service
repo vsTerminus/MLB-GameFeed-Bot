@@ -1,0 +1,15 @@
+[Unit]
+Description=MLB GameFeed Bot
+After=network.target
+
+[Service]
+WorkingDirectory=/path/to/git/MLB-GameFeed-Bot
+User=YourName
+Group=users
+Type=simple
+ExecStart=/path/to/git/MLB-GameFeed-Bot/gradlew run
+RestartSec=5
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
