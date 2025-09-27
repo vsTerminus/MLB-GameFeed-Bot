@@ -3,6 +3,7 @@ Description=MLB GameFeed Bot
 After=network.target
 
 [Service]
+Environment="JAVA_HOME=/usr/lib/jvm/java-17-openjdk"
 WorkingDirectory=/path/to/git/MLB-GameFeed-Bot
 User=YourName
 Group=users
